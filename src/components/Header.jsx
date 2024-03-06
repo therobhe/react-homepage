@@ -1,3 +1,5 @@
+import logo from "../assets/img/logo.png"
+
 export const Header = () => {
   return (
     <header className="header">
@@ -28,7 +30,7 @@ export const Header = () => {
         <div className="container text-center">
           <img
             className="profile-image img-rounded"
-            src="img/logo.png"
+            src={logo}
             width="200px"
             height="200px"
             alt="Logo Robert Heinemann"
@@ -51,7 +53,7 @@ export const Header = () => {
             </li>
             <li>
               <i className="fa fa-globe"></i>
-              <a href="https://robertheinemann.netlify.com" target="_blank">
+              <a href="https://robhe.netlify.com" target="_blank">
                 robhe.com
               </a>
             </li>
@@ -69,7 +71,7 @@ export const Header = () => {
                 </a>
               </li>
               <li>
-                <a href="pages/impressum.html">Impressum</a>
+                <a href="../../public/impressum.html">Impressum</a> Better do it with a state
               </li>
             </ul>
           </div>
