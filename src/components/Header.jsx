@@ -71,7 +71,7 @@ export const Header = () => {
                 </a>
               </li>
               <li>
-                <a href="../../public/impressum.html">Impressum</a> Better do it with a state
+                <a href="../../public/impressum.html">Impressum</a>
               </li>
             </ul>
           </div>
