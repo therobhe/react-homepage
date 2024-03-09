@@ -1,6 +1,6 @@
-import logo from "../assets/img/logo.png"
+import logo from "../assets/img/logo.png";
 
-export const Header = () => {
+export const Header = ({ activeLink, onClickCallback }) => {
   return (
     <header className="header">
       <div className="top-bar container-fluid">
@@ -14,12 +14,17 @@ export const Header = () => {
             <a
               href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQE_kpt3Ti-s2wAAAW2I5dognmDD8csdgmJ69IMix-7FT0TYhUXReOm9sK8E6U8x5WHAVloC3TNU4wQpxH6zathz19VjLsyn9u7YGG_7_y-2hYcdDDthfOfa4J2xfGllKPxrqkw=&originalReferer=https://www.google.com/&sessionRedirect=https%3A%2F%2Fde.linkedin.com%2Fin%2Frobert-heinemann-0501a5193"
               target="_blank"
+              rel="noreferrer"
             >
               <i className="fa fa-linkedin" aria-hidden="true"></i>
             </a>
           </li>
           <li>
-            <a href="https://github.com/therobhe" target="_blank">
+            <a
+              href="https://github.com/therobhe"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="fa fa-github-alt" aria-hidden="true"></i>
             </a>
           </li>
@@ -53,7 +58,11 @@ export const Header = () => {
             </li>
             <li>
               <i className="fa fa-globe"></i>
-              <a href="https://robhe.netlify.com" target="_blank">
+              <a
+                href="https://robhe.netlify.com"
+                target="_blank"
+                rel="noreferrer"
+              >
                 robhe.com
               </a>
             </li>
@@ -66,12 +75,10 @@ export const Header = () => {
           <div className="container">
             <ul id="page-nav" className="nav page-nav list-inline">
               <li>
-                <a className="scrollto" href="#contact-section">
-                  Contact
-                </a>
+                <div className={!activeLink ? "active" : undefined} onClick={() => onClickCallback(false)}>About</div>
               </li>
               <li>
-                <a href="../../public/impressum.html">Impressum</a>
+                <div className={activeLink ? "active" : undefined} onClick={() => onClickCallback(true)}>Legal Notice</div>
               </li>
             </ul>
           </div>

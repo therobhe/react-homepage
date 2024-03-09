@@ -1,7 +1,10 @@
+import { useState } from 'react';
+
 /**
  * Import Components
  */
 import { Header } from './components/Header';
+import { Imprint } from './components/Imprint';
 import { Main } from './components/Main';
 import { Footer } from './components/Footer';
 
@@ -15,11 +18,18 @@ import "./assets/styles/index.css";
  * @returns content of the website
  */
 export const App = () => {
+  const [showImprint, setShowImprint] = useState(false);
+
+  const handleClick = (newValue) => {
+    setShowImprint(newValue);
+  }
+
   return (
     <div>
-      <Header></Header>
-      <Main></Main>
-      <Footer></Footer>
+      <Header activeLink={showImprint} onClickCallback={handleClick}></Header>
+      {showImprint && <Imprint />}
+      {!showImprint && <Main />}
+      <Footer />
     </div>
   )
 }

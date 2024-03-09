@@ -1,4 +1,4 @@
-import profilePic from "../assets/img/me.jpg"
+import profilePic from "../assets/img/me.jpg";
 
 export const Main = () => {
   return (
@@ -43,12 +43,17 @@ export const Main = () => {
                 <a
                   href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQE_kpt3Ti-s2wAAAW2I5dognmDD8csdgmJ69IMix-7FT0TYhUXReOm9sK8E6U8x5WHAVloC3TNU4wQpxH6zathz19VjLsyn9u7YGG_7_y-2hYcdDDthfOfa4J2xfGllKPxrqkw=&originalReferer=https://www.google.com/&sessionRedirect=https%3A%2F%2Fde.linkedin.com%2Fin%2Frobert-heinemann-0501a5193"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="fa fa-linkedin" aria-hidden="true"></i>
                 </a>
               </li>
               <li>
-                <a href="https://github.com/therobhe" target="_blank">
+                <a
+                  href="https://github.com/therobhe"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fa fa-github-alt" aria-hidden="true"></i>
                 </a>
               </li>

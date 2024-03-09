@@ -19,6 +19,7 @@ h6 {
 }
 a {
   color: #00bcd4;
+  transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -60,6 +61,7 @@ a.btn:hover {
   background: #00a5bb;
 }
 #topcontrol {
+  transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -231,6 +233,23 @@ a.btn:hover {
   text-decoration: none;
   font-weight: 500;
 }
+.page-nav-wrapper div {
+  color: #fff9;
+  padding: inherit;
+  font-weight: 500;
+  text-decoration: none;
+}
+.page-nav-wrapper div:hover {
+  color: #fff;
+  transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+}
+.page-nav-wrapper .active {
+  color: #fff;
+}
 .page-nav-wrapper .page-nav {
   margin: 0 auto;
   display: inline-block;
@@ -265,7 +284,7 @@ a.btn:hover {
 }
 .wrapper {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 18px;
 }
 .section {
   -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
