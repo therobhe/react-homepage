@@ -3,7 +3,7 @@ export const Imprint = () => {
     <>
       <main id="imprint" className="wrapper container">
         <section className="contact-section section text-center">
-          <h2>Legal Notice</h2>
+          <h2 className="section-title">Legal Notice</h2>
           <p>Content provided by:</p>
           <p>
             Robert Heinemann
