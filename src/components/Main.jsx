@@ -1,4 +1,4 @@
-import profilePic from "../assets/img/me.jpg";
+import profilePic from "../assets/img/me.webp";
 
 export const Main = () => {
   return (
@@ -26,15 +26,13 @@ export const Main = () => {
           <img
             className="profile-image img-rounded"
             src={profilePic}
-            width="720"
-            height="720"
-            alt="Robert Heinemann"
+            alt="Profilbild von Webentwickler Robert Heinemann"
           />
           <div className="dialog">
             <p>
               Contact me per E-Mail:{" "}
-              <a href="mailto:rheinemann97@t-online.de">
-                rheinemann97@t-online.de
+              <a href="mailto:rheinemann97@icloud.com">
+                rheinemann97@icloud.com
               </a>
             </p>
             <p>or via:</p>
