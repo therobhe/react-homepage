@@ -49,8 +49,8 @@ export const Header = ({ activeLink, onClickCallback }) => {
           <ul className="list-inline d-flex justify-content-center">
             <li>
               <i className="fa fa-envelope"></i>
-              <a href="mailto:rheinemann97@t-online.de">
-                rheinemann97@t-online.de
+              <a href="mailto:rheinemann97@icloud.com">
+                rheinemann97@icloud.com
               </a>
             </li>
             <li>

@@ -13,8 +13,8 @@ export const Imprint = () => {
           </p>
           <p>
             E-Mail:{" "}
-            <a href="mailto:rheinemann97@t-online.de">
-              rheinemann97@t-online.de
+            <a href="mailto:rheinemann97@icloud.com">
+              rheinemann97@icloud.com
             </a>
             <br />
           </p>
