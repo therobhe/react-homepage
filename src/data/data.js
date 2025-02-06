@@ -6,32 +6,25 @@ import project4 from "../assets/projects/project-4.jpg";
 /* Experiences */
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2024 - Present",
+    role: "Stand-in Teamlead Frontend",
+    company: "apo-group.com",
+    description: `Designed and developed user interfaces for web applications using React. Implemented headless CMS Contentful to empower content managers to actively update the shop. Conducted code reviews and mentored junior developers.`,
+    technologies: ["React", "PHP", "Contentful", "mySQL"],
   },
   {
-    year: "2022 - 2023",
+    year: "2021 - 2024",
     role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    company: "apologistics GmbH",
+    description: `Developed and maintained a pharmaceutical xt:Commerce system using JavaScript and PHP plus its smarty engine. Transferred the legacy mobile/desktop-templates into responsive templates using Bootstrap5 and React. Actively involved in the conception of an own component library based on Bootstrap5. Optimized the performance of the web shop regarding lighthouse standards. Worked in a multi-developer team with SCRUM.`,
+    technologies: ["React", "JavaScript", "PHP", "Bootstrap5"],
   },
   {
     year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    role: "Content Manager Frontend",
+    company: "apologistics GmbH",
+    description: `Developed and maintained contentpages using JavaScript, jQuery, HTML5 and CSS. Implemented and analyzed A/B-Tests with Dynamic Yield in close communication with the marketing team. Worked closely with the design team to implement new features and designs.`,
+    technologies: ["JavaScript", "jQuery", "HTML5", "CSS"],
   },
 ];
 
