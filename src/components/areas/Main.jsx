@@ -4,10 +4,10 @@ import AboutMe from "../sections/AboutMe.jsx";
 
 export default function Main() {
     return (
-        <>
+        <main>
             <AboutMe />
             <Projects />
             <Experience />
-        </>
+        </main>
     )
 }
