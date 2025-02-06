@@ -59,7 +59,7 @@ export const PROJECTS = [
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    technologies: ["React", "TailwindCSS"],
     link: "https://github.com/therobhe/project-managing-tool"
   },
 ];
