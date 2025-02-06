@@ -16,7 +16,6 @@ export const PROJECTS_HEADLINE = `Sample Projects`;
 /* Footer */
 export const FOOTER_HEADLINE = `Get in Touch`;
 export const FOOTER_INFORMATION = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Im Winkel 2, 04523 Pegau, Germany",
+  email: "rheinemann97@icloud.com",
 };
