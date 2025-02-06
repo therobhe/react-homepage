@@ -1,6 +1,8 @@
 import {FOOTER_HEADLINE, FOOTER_INFORMATION} from "../../data/lang.js";
 
 export default function Footer() {
+    const currentYear = new Date().getFullYear();
+    
     return (
         <footer className="border-b border-neutral-900 pb-4">
             <h2 className="my-10 text-center text-4xl">{FOOTER_HEADLINE}</h2>
@@ -10,6 +12,7 @@ export default function Footer() {
                     <a href={FOOTER_INFORMATION.email} className="border-b">{FOOTER_INFORMATION.email}</a>
                 </p>
                 <p className="my-4">{FOOTER_INFORMATION.phoneNo}</p>
+                <p className="text-xs text-neutral-600">&copy; Robert Heinemann {currentYear}</p>
             </div>
         </footer>
     )
