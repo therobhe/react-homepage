@@ -36,6 +36,7 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    link: ""
   },
   {
     title: "Portfolio Website",
@@ -43,6 +44,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "TailwindCSS", "FramerMotion"],
+    link: "https://github.com/therobhe/react-homepage"
   },
   {
     title: "Quiz App",
@@ -50,6 +52,7 @@ export const PROJECTS = [
     description:
       "A simple app, fetching some questions from an API and displaying them to the user. Features a score counter and a timer.",
     technologies: ["React", "TailwindCSS", "Open Trivia API"],
+    link: ""
   },
   {
     title: "Task Management App",
@@ -57,5 +60,6 @@ export const PROJECTS = [
     description:
       "An application for managing tasks and projects, with features such as task creation and progress tracking.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    link: ""
   },
 ];
