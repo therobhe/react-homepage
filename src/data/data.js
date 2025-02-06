@@ -9,14 +9,14 @@ export const EXPERIENCES = [
     year: "2024 - Present",
     role: "Stand-in Teamlead Frontend",
     company: "apo-group.com",
-    description: `Designed and developed user interfaces for web applications using React. Implemented headless CMS Contentful to empower content managers to actively update the shop. Conducted code reviews and mentored junior developers.`,
+    description: `Designed and developed user interfaces for web applications using React. Implemented headless CMS Contentful to empower content managers to actively update the shop. Conducted code reviews and mentored junior developers and increased knowledge in e2e testing with Cypress.`,
     technologies: ["React", "PHP", "Contentful", "mySQL"],
   },
   {
     year: "2021 - 2024",
     role: "Frontend Developer",
     company: "apologistics GmbH",
-    description: `Developed and maintained a pharmaceutical xt:Commerce system using JavaScript and PHP plus its smarty engine. Transferred the legacy mobile/desktop-templates into responsive templates using Bootstrap5 and React. Actively involved in the conception of an own component library based on Bootstrap5. Optimized the performance of the web shop regarding lighthouse standards. Worked in a multi-developer team with SCRUM.`,
+    description: `Developed and maintained a pharmaceutical xt:Commerce system using JavaScript and PHP plus its smarty engine. Transferred the legacy mobile/desktop-templates into responsive templates using Bootstrap5 and React. Actively involved in the conception of an own component library based on Bootstrap5. Optimized the performance of the web shop regarding Lighthouse standards. Worked in a multi-developer team based on SCRUM.`,
     technologies: ["React", "JavaScript", "PHP", "Bootstrap5"],
   },
   {
@@ -45,17 +45,17 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
   },
   {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
     title: "Blogging Platform",
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+  },
+  {
+    title: "Portfolio Website",
+    image: project3,
+    description:
+      "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["React", "TailwindCSS", "FramerMotion"],
   },
 ];

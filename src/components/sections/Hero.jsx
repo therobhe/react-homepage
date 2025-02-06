@@ -1,4 +1,4 @@
-import {HERO_TEXT, HERO_NAME, HERO_JOB} from "../../data/lang.js";
+import {HERO_NAME, HERO_JOB} from "../../data/lang.js";
 import profilePic from "../../assets/kevinRushProfile.jpg";
 import {motion} from "framer-motion";
 
@@ -24,16 +24,15 @@ export default function Hero() {
                         <motion.h1 variants={sliderVariants(0.25, -100)}
                                    initial="hidden"
                                    animate="visible"
-                                   className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg_text-8xl">{HERO_NAME}</motion.h1>
+                                   className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg_text-8xl">
+                            {HERO_NAME}
+                        </motion.h1>
                         <motion.span variants={sliderVariants(0.5, -100)}
                                      initial="hidden"
                                      animate="visible"
-                                     className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">{HERO_JOB}</motion.span>
-                        <motion.p
-                            variants={sliderVariants(0.75, -100)}
-                            initial="hidden"
-                            animate="visible"
-                            className="my-2 max-w-xl py-6 font-light tracking-tighter">{HERO_TEXT}</motion.p>
+                                     className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">
+                            {HERO_JOB}
+                        </motion.span>
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-8">
