@@ -8,7 +8,7 @@ export const EXPERIENCES = [
   {
     year: "2024 - Present",
     role: "Stand-in Teamlead Frontend",
-    company: "apo-group.com",
+    company: "apo.com Group",
     description: `Designed and developed user interfaces for web applications using React. Implemented headless CMS Contentful to empower content managers to actively update the shop. Conducted code reviews and mentored junior developers and increased knowledge in e2e testing with Cypress.`,
     technologies: ["React", "PHP", "Contentful", "mySQL"],
   },

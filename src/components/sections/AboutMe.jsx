@@ -1,5 +1,5 @@
 import {ABOUT_ME_HEADLINE, ABOUT_ME_DESCRIPTION} from "../../data/lang.js";
-import profilePic from "../../assets/kevinRushProfile.jpg";
+import profilePic from "../../assets/about.jpg";
 import Techstack from "../Techstack.jsx";
 import {motion} from "framer-motion";
 
