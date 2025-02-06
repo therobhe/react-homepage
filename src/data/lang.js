@@ -10,6 +10,9 @@ export const ABOUT_ME_DESCRIPTION = `I am a dedicated and versatile full stack d
 /* Experiences */
 export const EXPERIENCE_HEADLINE = `Work Experience`;
 
+/* Projects */
+export const PROJECTS_HEADLINE = `Sample Projects`;
+
 /* Footer */
 export const FOOTER = {
   address: "767 Fifth Avenue, New York, NY 10153 ",
