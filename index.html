@@ -1,13 +1,37 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Robert Heinemann - Frontend Webdeveloper</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Robert Heinemann Portfolio Website">
+    <meta name="keywords" content="portfolio, web developer, Robert Heinemann">
+    <meta property="og:title" content="Robert Heinemann Portfolio">
+    <meta property="og:description" content="Welcome to the portfolio of Robert Heinemann, a web developer.">
+    <meta property="og:url" content="https://robhe.netlify.app">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Robert Heinemann Portfolio">
+    <meta name="twitter:description" content="Welcome to the portfolio of Robert Heinemann, a web developer.">
+    <title>Robert Heinemann Portfolio</title>
+</head>
+<body>
+<div id="root"></div>
+<script type="module" src="/src/main.jsx"></script>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Robert Heinemann",
+        "url": "https://robhe.netlify.app",
+        "sameAs": [
+            "https://www.linkedin.com/in/robertheinemann",
+            "https://github.com/therobhe"
+        ],
+        "jobTitle": "Web Developer",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "apo.com Group"
+        }
+    }
+</script>
+</body>
 </html>
