@@ -38,24 +38,24 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
-  {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "TailwindCSS", "FramerMotion"],
+  },
+  {
+    title: "Quiz App",
+    image: project4,
+    description:
+      "A simple app, fetching some questions from an API and displaying them to the user. Features a score counter and a timer.",
+    technologies: ["React", "TailwindCSS", "Open Trivia API"],
+  },
+  {
+    title: "Task Management App",
+    image: project2,
+    description:
+      "An application for managing tasks and projects, with features such as task creation and progress tracking.",
+    technologies: ["HTML", "CSS", "Angular", "Firebase"],
   },
 ];
