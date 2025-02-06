@@ -8,8 +8,8 @@ export default function Main() {
         <main>
             <Hero />
             <AboutMe />
-            <Projects />
             <Experience />
+            <Projects />
         </main>
     )
 }
