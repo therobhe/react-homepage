@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
+/*import project1 from "../assets/projects/project-1.jpg";*/
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+/*import project4 from "../assets/projects/project-4.jpg";*/
 
 /* Experiences */
 export const EXPERIENCES = [
@@ -30,14 +30,14 @@ export const EXPERIENCES = [
 
 /* Projects */
 export const PROJECTS = [
-  {
+/*  {
     title: "E-Commerce Website",
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
     link: ""
-  },
+  },*/
   {
     title: "Portfolio Website",
     image: project3,
@@ -46,14 +46,14 @@ export const PROJECTS = [
     technologies: ["React", "TailwindCSS", "FramerMotion"],
     link: "https://github.com/therobhe/react-homepage"
   },
-  {
+/*  {
     title: "Quiz App",
     image: project4,
     description:
       "A simple app, fetching some questions from an API and displaying them to the user. Features a score counter and a timer.",
     technologies: ["React", "TailwindCSS", "Open Trivia API"],
     link: ""
-  },
+  },*/
   {
     title: "Task Management App",
     image: project2,

@@ -32,7 +32,7 @@ export default function Projects() {
                                     <span key={index} className="mr-2 mt-4 px-2 py-2 bg-neutral-800 text-purple-400 rounded">{technology}</span>
                                 ))}
                             </div>
-                            <a href={project.link}>
+                            <a href={project.link} target="_blank" rel="noreferrer">
                                 <FaGithub className="text-4xl mt-4"/>
                             </a>
                         </motion.div>
