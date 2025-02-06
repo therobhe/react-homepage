@@ -14,7 +14,7 @@ export default function Hero() {
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-8">
                     <div className="flex justify-center">
-                        <img src={profilePic} alt="Robert Heinemann Portrait Image"/>
+                        <img src={profilePic} alt="Robert Heinemann Portrait Image" className="rounded-2xl"/>
                     </div>
                 </div>
             </div>

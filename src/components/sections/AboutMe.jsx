@@ -1,5 +1,6 @@
 import {ABOUT_ME_HEADLINE, ABOUT_ME_DESCRIPTION} from "../../data/lang.js";
 import profilePic from "../../assets/kevinRushProfile.jpg";
+import Techstack from "../Techstack.jsx";
 
 export default function AboutMe() {
     return (
@@ -8,7 +9,7 @@ export default function AboutMe() {
             <div className="flex flex-wrap">
                 <div className="w-full lg:w-1/2 lg:p-8">
                     <div className="flex justify-center items-center">
-                        <img src={profilePic} alt="Robert Heinemann Portrait Image"/>
+                        <img src={profilePic} alt="Robert Heinemann Portrait Image" className="rounded-2xl"/>
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2">
@@ -17,6 +18,8 @@ export default function AboutMe() {
                     </div>
                 </div>
             </div>
+
+            <Techstack />
         </section>
     )
 }
