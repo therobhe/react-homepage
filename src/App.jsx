@@ -1,4 +1,6 @@
-import Header from './components/Header.jsx';
+import Header from './components/areas/Header.jsx';
+import Main from './components/areas/Main.jsx';
+import Footer from './components/areas/Footer.jsx';
 
 function App() {
 
@@ -11,6 +13,8 @@ function App() {
             {/* Page Content */}
             <div className="container mx-auto px-8">
                 <Header/>
+                <Main />
+                <Footer />
             </div>
         </div>
     )
