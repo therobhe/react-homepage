@@ -19,7 +19,7 @@ export default function AboutMe() {
                     initial={{opacity: 0, x: -100}}
                     transition={{duration: 0.5}}>
                     <div className="flex justify-center items-center">
-                        <img src={profilePic} alt="Robert Heinemann Portrait Image" className="rounded-2xl min-w-80 max-w-xl"/>
+                        <img src={profilePic} alt="Robert Heinemann Portrait Image" width={500} height={500} className="rounded-2xl min-w-80 max-w-xl"/>
                     </div>
                 </motion.div>
                 <motion.div className="w-full lg:w-1/2"

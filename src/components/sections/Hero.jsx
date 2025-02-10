@@ -30,7 +30,7 @@ export default function Hero() {
                         <motion.span variants={sliderVariants(0.5, -100)}
                                      initial="hidden"
                                      animate="visible"
-                                     className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent mb-8">
+                                     className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 text-center xl:text-left bg-clip-text text-3xl tracking-tight text-transparent mb-8">
                             {HERO_JOB}
                         </motion.span>
                     </div>
@@ -40,7 +40,7 @@ export default function Hero() {
                          variants={sliderVariants(1, 100)}
                          initial="hidden"
                          animate="visible">
-                        <img src={profilePic} alt="Robert Heinemann Portrait Image" className="rounded-2xl min-w-80 max-w-xl"/>
+                        <img src={profilePic} alt="Robert Heinemann Portrait Image" width={500} height={500} className="rounded-2xl min-w-80 max-w-xl"/>
                     </motion.div>
                 </div>
             </div>

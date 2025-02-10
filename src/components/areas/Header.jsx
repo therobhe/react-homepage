@@ -7,7 +7,7 @@ export default function Header() {
         <header>
             <nav className="mb-20 flex items-center justify-between py-6">
                 <div className="flex flex-shrink-0 items-center">
-                    <img src={logo} alt="Robert Heinemann Logo" className="mx-2 w-20"/>
+                    <img src={logo} alt="Robert Heinemann Logo" className="mx-2 w-20" width={80} height={53}/>
                 </div>
                 <div className="icons m-8 flex items-center justify-center gap-4 text-2xl">
                     <a href="https://www.linkedin.com/in/robert-heinemann-0501a5193/" target="_blank" rel="noreferrer" aria-label="Link to Robert Heinemanns LinkedIn Profile">
