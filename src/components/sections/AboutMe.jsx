@@ -1,5 +1,5 @@
 import {ABOUT_ME_HEADLINE, ABOUT_ME_DESCRIPTION} from "../../data/lang.js";
-import profilePic from "../../assets/about.jpg";
+import profilePic from "../../assets/about.webp";
 import Techstack from "../Techstack.jsx";
 import {motion} from "framer-motion";
 
@@ -14,7 +14,7 @@ export default function AboutMe() {
                     initial={{opacity: 0, x: -100}}
                     transition={{duration: 0.5}}>
                     <div className="flex justify-center items-center">
-                        <img src={profilePic} alt="Robert Heinemann Portrait Image" className="rounded-2xl"/>
+                        <img src={profilePic} alt="Robert Heinemann Portrait Image" className="rounded-2xl min-w-80 max-w-xl"/>
                     </div>
                 </motion.div>
                 <motion.div className="w-full lg:w-1/2"
