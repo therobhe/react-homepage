@@ -1,8 +1,6 @@
 import {HERO_NAME, HERO_JOB} from "../../data/lang.js";
-import profilePic from "../../assets/hero/hero.webp";
 import profilePic400 from "../../assets/hero/hero-400w.webp";
 import profilePic600 from "../../assets/hero/hero-600w.webp";
-import profilePic800 from "../../assets/hero/hero-800w.webp";
 import {motion} from "framer-motion";
 
 // configuration for the starting and ending position of the animation
@@ -43,9 +41,9 @@ export default function Hero() {
                          variants={sliderVariants(1, 100)}
                          initial="hidden"
                          animate="visible">
-                        <img src={profilePic}
-                             srcSet={`${profilePic400} 400w, ${profilePic600} 600w, ${profilePic800} 800w, ${profilePic} 1000w`}
-                             sizes="(max-width: 400px) 400px, (max-width: 600px) 600px, (min-width: 601px) 800px"
+                        <img src={profilePic600}
+                             srcSet={`${profilePic400} 400w, ${profilePic600} 600w`}
+                             sizes="(max-width: 400px) 400px, (max-width: 600px) 600px"
                              alt="Robert Heinemann Portrait Image" 
                              width={500} 
                              height={500} 
