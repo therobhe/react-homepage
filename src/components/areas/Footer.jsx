@@ -22,8 +22,8 @@ export default function Footer() {
                         <FaGithub />
                     </a>
                 </div>
-                <p className="my-4 text-neutral-400">{FOOTER_INFORMATION.address}</p>
-                <p className="my-4 text-neutral-400">
+                <p className="my-4 text-neutral-200">{FOOTER_INFORMATION.address}</p>
+                <p className="my-4 text-neutral-200">
                     <a href={`mailto:${FOOTER_INFORMATION.email}`} className="border-b" aria-label="Link to Robert Heinemanns Contact Email Adress">{FOOTER_INFORMATION.email}</a>
                 </p>
                 <p className="text-xs text-neutral-600">&copy; Robert Heinemann {currentYear}</p>
