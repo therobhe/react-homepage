@@ -6,7 +6,12 @@ import {motion} from "framer-motion";
 export default function AboutMe() {
     return (
         <section className="border-b border-neutral-900 pb-4">
-            <h2 className="my-20 text-center text-4xl">{ABOUT_ME_HEADLINE}</h2>
+            <motion.h2 className="my-20 text-center text-4xl"
+                       whileInView={{opacity: 1, x: 0}}
+                       initial={{opacity: 0, x: -100}}
+                       transition={{duration: 0.5}}>
+                {ABOUT_ME_HEADLINE}
+            </motion.h2>
             <div className="flex flex-wrap">
                 <motion.div
                     className="w-full lg:w-1/2 lg:p-8"
