@@ -1,6 +1,6 @@
 {
-  "short_name": "Portfolio",
-  "name": "Robert Heinemann Portfolio Website",
+  "short_name": "my-project-name-short",
+  "name": "my-project-name",
   "icons": [
     {
       "src": "favicon.ico",
