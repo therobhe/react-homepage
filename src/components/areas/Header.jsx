@@ -10,10 +10,10 @@ export default function Header() {
                     <img src={logo} alt="Robert Heinemann Logo" className="mx-2 w-20"/>
                 </div>
                 <div className="icons m-8 flex items-center justify-center gap-4 text-2xl">
-                    <a href="https://www.linkedin.com/in/robert-heinemann-0501a5193/" target="_blank" rel="noreferrer">
+                    <a href="https://www.linkedin.com/in/robert-heinemann-0501a5193/" target="_blank" rel="noreferrer" aria-label="Link to Robert Heinemanns LinkedIn Profile">
                         <FaLinkedinIn />
                     </a>
-                    <a href="https://github.com/therobhe" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/therobhe" target="_blank" rel="noreferrer" aria-label="Link to Robert Heinemanns GitHub Profile">
                         <FaGithub />
                     </a>
                 </div>

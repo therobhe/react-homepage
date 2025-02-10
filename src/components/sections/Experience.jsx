@@ -25,7 +25,7 @@ export default function Experience() {
                                     whileInView={{opacity: 1, x: 0}}
                                     initial={{opacity: 0, x: 100}}
                                     transition={{duration: 0.5}}>
-                            <h6 className="mb-2 font-semibold">{experience.role} - <span className="text-small text-purple-100">{experience.company}</span></h6>
+                            <h3 className="mb-2 font-semibold">{experience.role} - <span className="text-small text-purple-100">{experience.company}</span></h3>
                             <p className="text-sm text-neutral-400">{experience.description}</p>
                             <div className="flex flex-wrap">
                                 {experience.technologies.map((technology, index) => (

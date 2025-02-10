@@ -25,14 +25,14 @@ export default function Projects() {
                              whileInView={{opacity: 1, x: 0}}
                              initial={{opacity: 0, x: 100}}
                              transition={{duration: 0.5}}>
-                            <h6 className="mb-2 font-semibold"><span className="text-small text-purple-100">{project.title}</span></h6>
+                            <h3 className="mb-2 font-semibold"><span className="text-small text-purple-100">{project.title}</span></h3>
                             <p className="text-sm text-neutral-400 mb-4">{project.description}</p>
                             <div className="flex flex-wrap justify-center lg:justify-normal">
                                 {project.technologies.map((technology, index) => (
                                     <span key={index} className="mr-2 mt-4 px-2 py-2 bg-neutral-800 text-purple-400 rounded">{technology}</span>
                                 ))}
                             </div>
-                            <a href={project.link} target="_blank" rel="noreferrer">
+                            <a href={project.link} target="_blank" rel="noreferrer" aria-label={`Link to the ${project.title} project on GitHub`}>
                                 <FaGithub className="text-4xl mt-4"/>
                             </a>
                         </motion.div>

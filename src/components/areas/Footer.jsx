@@ -15,16 +15,16 @@ export default function Footer() {
             </motion.h2>
             <div className="text-center tracking-tighter">
                 <div className="icons m-8 flex items-center justify-center gap-4 text-2xl">
-                    <a href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQE_kpt3Ti-s2wAAAW2I5dognmDD8csdgmJ69IMix-7FT0TYhUXReOm9sK8E6U8x5WHAVloC3TNU4wQpxH6zathz19VjLsyn9u7YGG_7_y-2hYcdDDthfOfa4J2xfGllKPxrqkw=&originalReferer=https://www.google.com/&sessionRedirect=https%3A%2F%2Fde.linkedin.com%2Fin%2Frobert-heinemann-0501a5193" target="_blank" rel="noreferrer">
+                    <a href="https://www.linkedin.com/in/robert-heinemann-0501a5193/" target="_blank" rel="noreferrer" aria-label="Link to Robert Heinemanns LinkedIn Profile">
                         <FaLinkedinIn />
                     </a>
-                    <a href="https://github.com/therobhe" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/therobhe" target="_blank" rel="noreferrer" aria-label="Link to Robert Heinemanns GitHub Profile">
                         <FaGithub />
                     </a>
                 </div>
-                <p className="my-4">{FOOTER_INFORMATION.address}</p>
-                <p className="my-4">
-                    <a href={FOOTER_INFORMATION.email} className="border-b">{FOOTER_INFORMATION.email}</a>
+                <p className="my-4 text-purple-100">{FOOTER_INFORMATION.address}</p>
+                <p className="my-4  text-purple-100">
+                    <a href={`mailto:${FOOTER_INFORMATION.email}`} className="border-b" aria-label="Link to Robert Heinemanns Contact Email Adress">{FOOTER_INFORMATION.email}</a>
                 </p>
                 <p className="text-xs text-neutral-600">&copy; Robert Heinemann {currentYear}</p>
             </div>
