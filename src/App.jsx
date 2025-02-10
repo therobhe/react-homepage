@@ -1,35 +1,24 @@
-import { useState } from 'react';
+import Header from './components/areas/Header.jsx';
+import Main from './components/areas/Main.jsx';
+import Footer from './components/areas/Footer.jsx';
 
-/**
- * Import Components
- */
-import { Header } from './components/Header';
-import { Imprint } from './components/Imprint';
-import { Main } from './components/Main';
-import { Footer } from './components/Footer';
+function App() {
 
-/**
- * Import Styles
- */
-import "./assets/styles/index.css";
+    return (
+        <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900">
+            {/* Background Styling */}
+            <div className="fixed top-0 -z-10 h-full w-full">
+                <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
+            </div>
 
-/**
- * App - the main component of the website
- * @returns content of the website
- */
-export const App = () => {
-  const [showImprint, setShowImprint] = useState(false);
-
-  const handleClick = (newValue) => {
-    setShowImprint(newValue);
-  }
-
-  return (
-    <div>
-      <Header activeLink={showImprint} onClickCallback={handleClick}></Header>
-      {showImprint && <Imprint />}
-      {!showImprint && <Main />}
-      <Footer />
-    </div>
-  )
+            {/* Page Content */}
+            <div className="container mx-auto px-8">
+                <Header/>
+                <Main />
+                <Footer />
+            </div>
+        </div>
+    )
 }
+
+export default App
