@@ -1,5 +1,5 @@
 import {ABOUT_ME_HEADLINE, ABOUT_ME_DESCRIPTION} from "../../data/lang.js";
-import profilePic from "../../assets/about.webp";
+import profilePic from "../../assets/about/about.webp";
 import Techstack from "../Techstack.jsx";
 import {motion} from "framer-motion";
 import profilePic400 from "../../assets/about/about-400w.webp";
