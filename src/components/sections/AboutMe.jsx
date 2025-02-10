@@ -27,7 +27,7 @@ export default function AboutMe() {
                              sizes="(max-width: 400px) 400px, (max-width: 600px) 600px, (min-width: 601px) 800px"
                              alt="Robert Heinemann Portrait Image"
                              width={500} height={500}
-                             className="rounded-2xl min-w-80 max-w-xl"/>
+                             className="rounded-2xl"/>
                     </div>
                 </motion.div>
                 <motion.div className="w-full lg:w-1/2"

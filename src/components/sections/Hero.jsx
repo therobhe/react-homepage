@@ -49,7 +49,7 @@ export default function Hero() {
                              alt="Robert Heinemann Portrait Image" 
                              width={500} 
                              height={500} 
-                             className="rounded-2xl min-w-80 max-w-xl"/>
+                             className="rounded-2xl"/>
                     </motion.div>
                 </div>
             </div>
