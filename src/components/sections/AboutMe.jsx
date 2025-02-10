@@ -24,6 +24,7 @@ export default function AboutMe() {
                              srcSet={`${profilePic400} 400w, ${profilePic600} 600w`}
                              sizes="(max-width: 400px) 400px, (max-width: 600px) 600px"
                              alt="Robert Heinemann Portrait Image"
+                             loading="lazy"
                              width={500} height={500}
                              className="rounded-2xl"/>
                     </div>
