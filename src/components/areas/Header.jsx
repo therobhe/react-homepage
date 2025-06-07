@@ -8,16 +8,16 @@ export default function Header() {
 
   return (
     <header>
-      <nav className="mb-20 flex items-center justify-between py-6">
+      <nav aria-label="Further links navigation" className="mb-20 flex items-center justify-between py-6">
         <div className="flex flex-shrink-0 items-center">
-          <img src={logo} alt={t('header.logoAlt')} className="mx-2 w-20"/>
+          <img src={logo} alt={t('header.logoAlt')} className="mx-2 w-20" />
         </div>
         <div className="icons m-8 flex items-center justify-center gap-4 text-2xl">
           <a href="https://www.linkedin.com/in/robert-heinemann-0501a5193/" target="_blank" rel="noreferrer">
-            <FaLinkedinIn/>
+            <FaLinkedinIn />
           </a>
           <a href="https://github.com/therobhe" target="_blank" rel="noreferrer">
-            <FaGithub/>
+            <FaGithub />
           </a>
         </div>
       </nav>

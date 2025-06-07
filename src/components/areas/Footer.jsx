@@ -5,7 +5,12 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 export default function Footer() {
   const CONTACT_EMAIL = "rheinemann97@icloud.com";
   const currentYear = new Date().getFullYear();
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  const toggleLanguage = () => {
+    const newLang = i18n.language === 'en' ? 'de' : 'en';
+    i18n.changeLanguage(newLang);
+  };
 
   return (
     <footer className="border-b border-neutral-900 pb-4">
@@ -30,6 +35,18 @@ export default function Footer() {
         <p className="my-4">
           <a href={`mailto:${CONTACT_EMAIL}`} className="border-b">{CONTACT_EMAIL}</a>
         </p>
+        <nav aria-label="Footer Link Navigation" className="mb-2">
+          <ul className="flex justify-center space-x-4">
+            <li>
+              <button
+                onClick={toggleLanguage}
+                className="text-purple-400 hover:text-purple-300"
+              >
+                {i18n.language === 'en' ? 'DE' : 'EN'}
+              </button>
+            </li>
+          </ul>
+        </nav>
         <p className="text-xs text-neutral-600">&copy; Robert Heinemann {currentYear}</p>
       </div>
     </footer>
