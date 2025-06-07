@@ -1,4 +1,4 @@
-import {HERO_NAME, HERO_JOB} from "../../data/lang.js";
+import {useTranslation} from "react-i18next";
 import profilePic from "../../assets/hero.webp";
 import {motion} from "framer-motion";
 
@@ -16,6 +16,8 @@ const sliderVariants = (delay, startingPos) => ({
 })
 
 export default function Hero() {
+    const {t} = useTranslation();
+
     return (
         <section className="border-b border-neutral-900 pb-4 lg:mb-35">
             <div className="flex flex-wrap">
@@ -25,13 +27,13 @@ export default function Hero() {
                                    initial="hidden"
                                    animate="visible"
                                    className="pb-6 pb-xl-16 text-center xl:text-left text-6xl font-thin tracking-tight lg:mt-16 lg_text-8xl">
-                            {HERO_NAME}
+                            {t("hero.headline")}
                         </motion.h1>
                         <motion.span variants={sliderVariants(0.5, -100)}
                                      initial="hidden"
                                      animate="visible"
                                      className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent mb-8">
-                            {HERO_JOB}
+                            {t("hero.subheadline")}
                         </motion.span>
                     </div>
                 </div>
@@ -40,7 +42,7 @@ export default function Hero() {
                          variants={sliderVariants(1, 100)}
                          initial="hidden"
                          animate="visible">
-                        <img src={profilePic} alt="Robert Heinemann Portrait Image" className="rounded-2xl min-w-80 max-w-xl"/>
+                        <img src={profilePic} alt={t("hero.portraitAlt")} className="rounded-2xl min-w-80 max-w-xl"/>
                     </motion.div>
                 </div>
             </div>

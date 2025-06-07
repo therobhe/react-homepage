@@ -1,9 +1,10 @@
-import {FOOTER_HEADLINE, FOOTER_INFORMATION} from "../../data/lang.js";
+import {useTranslation} from "react-i18next";
 import {motion} from "framer-motion";
 import {FaGithub, FaLinkedinIn} from "react-icons/fa";
 
 export default function Footer() {
     const currentYear = new Date().getFullYear();
+    const {t} = useTranslation();
     
     return (
         <footer className="border-b border-neutral-900 pb-4">
@@ -11,7 +12,7 @@ export default function Footer() {
                        whileInView={{opacity: 1, y: 0}}
                        initial={{opacity: 0, y: -100}}
                        transition={{duration: 0.5}}>
-                {FOOTER_HEADLINE}
+                {t("footer.headline")}
             </motion.h2>
             <div className="text-center tracking-tighter">
                 <div className="icons m-8 flex items-center justify-center gap-4 text-2xl">
@@ -22,9 +23,9 @@ export default function Footer() {
                         <FaGithub />
                     </a>
                 </div>
-                <p className="my-4">{FOOTER_INFORMATION.address}</p>
+                <p className="my-4">{t("footer.information.address")}</p>
                 <p className="my-4">
-                    <a href={FOOTER_INFORMATION.email} className="border-b">{FOOTER_INFORMATION.email}</a>
+                    <a href={t("footer.information.email")} className="border-b">{t("footer.information.email")}</a>
                 </p>
                 <p className="text-xs text-neutral-600">&copy; Robert Heinemann {currentYear}</p>
             </div>

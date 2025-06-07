@@ -1,8 +1,9 @@
-import {EXPERIENCE_HEADLINE} from "../../data/lang.js";
+import {useTranslation} from "react-i18next";
 import {EXPERIENCES} from "../../data/data.js";
 import {motion} from "framer-motion";
 
 export default function Experience() {
+    const {t} = useTranslation();
 
     return (
         <section className="border-b border-neutral-900 pb-4">
@@ -10,7 +11,7 @@ export default function Experience() {
                        whileInView={{opacity: 1, y: 0}}
                        initial={{opacity: 0, y: -100}}
                        transition={{duration: 0.5}}>
-                {EXPERIENCE_HEADLINE}
+                {t('experience.headline')}
             </motion.h2>
             <div>
                 {EXPERIENCES.map((experience, index) => (

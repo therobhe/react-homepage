@@ -1,16 +1,18 @@
 import {PROJECTS} from "../../data/data.js";
-import {PROJECTS_HEADLINE} from "../../data/lang.js";
+import {useTranslation} from "react-i18next";
 import {motion} from "framer-motion";
 import {FaGithub} from "react-icons/fa";
 
 export default function Projects() {
+    const {t} = useTranslation();
+
     return (
         <section className="border-b border-neutral-900 pb-4">
             <motion.h2 className="my-20 text-center text-4xl"
                        whileInView={{opacity: 1, y: 0}}
                        initial={{opacity: 0, y: -100}}
                        transition={{duration: 0.5}}>
-                {PROJECTS_HEADLINE}
+                {t("projects.headline")}
             </motion.h2>
             <div>
                 {PROJECTS.map((project, index) => (
