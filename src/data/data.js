@@ -30,13 +30,17 @@ export const PROJECTS = [
       link: ""
     },*/
   {
-    title: "Portfolio Website",
+    id: "portfolio",
     image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "TailwindCSS", "FramerMotion"],
     link: "https://github.com/therobhe/react-homepage"
   },
+  {
+    id: "task-manager",
+    image: project2,
+    technologies: ["React", "TailwindCSS"],
+    link: "https://github.com/therobhe/project-managing-tool"
+  }
   /*  {
       title: "Quiz App",
       image: project4,
@@ -45,12 +49,4 @@ export const PROJECTS = [
       technologies: ["React", "TailwindCSS", "Open Trivia API"],
       link: ""
     },*/
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation and progress tracking.",
-    technologies: ["React", "TailwindCSS"],
-    link: "https://github.com/therobhe/project-managing-tool"
-  },
 ];

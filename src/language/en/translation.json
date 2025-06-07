@@ -42,11 +42,13 @@
     "headline": "Sample Projects",
     "items": [
       {
+        "id": "portfolio",
         "title": "Portfolio Website",
         "description": "A personal portfolio website showcasing projects, skills, and contact information.",
         "imageAlt": "Portfolio Website Screenshot"
       },
       {
+        "id": "task-manager",
         "title": "Task Management App",
         "description": "An application for managing tasks and projects, with features such as task creation and progress tracking.",
         "imageAlt": "Task Management App Screenshot"
