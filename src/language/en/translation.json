@@ -1,0 +1,67 @@
+{
+  "header": {
+    "logoAlt": "Robert Heinemann Logo"
+  },
+  "hero": {
+    "headline": "Robert Heinemann",
+    "subheadline": "Frontend Web Developer",
+    "portraitAlt": "Robert Heinemann Portrait"
+  },
+  "aboutMe": {
+    "headline": "About Me",
+    "description": "I am a dedicated and versatile frontend developer with a passion for creating visually pleasing and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Node.js, TailwindCSS, Bootstrap5, Cypress, PHP and MySQL. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions.",
+    "moodImageAlt": "Robert Heinemann Software Developer"
+  },
+  "experience": {
+    "headline": "Work Experience",
+    "items": [
+      {
+        "id": "lead-frontend",
+        "year": "2024 - Present",
+        "role": "Stand-in Teamlead Frontend",
+        "company": "apo.com Group",
+        "description": "Designed and developed user interfaces for web applications using React. Implemented headless CMS Contentful to empower content managers to actively update the shop. Conducted code reviews and mentored junior developers and increased knowledge in e2e testing with Cypress."
+      },
+      {
+        "id": "frontend-dev",
+        "year": "2021 - 2024",
+        "role": "Frontend Developer",
+        "company": "apologistics GmbH",
+        "description": "Developed and maintained a pharmaceutical xt:Commerce system using JavaScript and PHP plus its smarty engine. Transferred the legacy mobile/desktop-templates into responsive templates using Bootstrap5 and React. Actively involved in the conception of an own component library based on Bootstrap5. Optimized the performance of the web shop regarding Lighthouse standards. Worked in a multi-developer team based on SCRUM."
+      },
+      {
+        "id": "content-manager",
+        "year": "2020 - 2021",
+        "role": "Content Manager Frontend",
+        "company": "apologistics GmbH",
+        "description": "Developed and maintained contentpages using JavaScript, jQuery, HTML5 and CSS. Implemented and analyzed A/B-Tests with Dynamic Yield in close communication with the marketing team. Worked closely with the design team to implement new features and designs."
+      }
+    ]
+  },
+  "projects": {
+    "headline": "Sample Projects",
+    "items": [
+      {
+        "id": "portfolio",
+        "title": "Portfolio Website",
+        "description": "A personal portfolio website showcasing projects, skills, and contact information.",
+        "imageAlt": "Portfolio Website Screenshot"
+      },
+      {
+        "id": "task-manager",
+        "title": "Task Management App",
+        "description": "An application for managing tasks and projects, with features such as task creation and progress tracking.",
+        "imageAlt": "Task Management App Screenshot"
+      }
+    ]
+  },
+  "techstack": {
+    "headline": "Technologies"
+  },
+  "footer": {
+    "headline": "Get in Touch",
+    "information": {
+      "address": "Im Winkel 2, 04523 Pegau, Germany"
+    }
+  }
+}
