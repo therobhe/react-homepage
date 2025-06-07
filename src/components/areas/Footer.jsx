@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 export default function Footer() {
+  const CONTACT_EMAIL = "rheinemann97@icloud.com";
   const currentYear = new Date().getFullYear();
   const { t } = useTranslation();
 
@@ -19,15 +20,15 @@ export default function Footer() {
           <a
             href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQE_kpt3Ti-s2wAAAW2I5dognmDD8csdgmJ69IMix-7FT0TYhUXReOm9sK8E6U8x5WHAVloC3TNU4wQpxH6zathz19VjLsyn9u7YGG_7_y-2hYcdDDthfOfa4J2xfGllKPxrqkw=&originalReferer=https://www.google.com/&sessionRedirect=https%3A%2F%2Fde.linkedin.com%2Fin%2Frobert-heinemann-0501a5193"
             target="_blank" rel="noreferrer">
-            <FaLinkedinIn/>
+            <FaLinkedinIn />
           </a>
           <a href="https://github.com/therobhe" target="_blank" rel="noreferrer">
-            <FaGithub/>
+            <FaGithub />
           </a>
         </div>
         <p className="my-4">{t("footer.information.address")}</p>
         <p className="my-4">
-          <a href={t("footer.information.email")} className="border-b">{t("footer.information.email")}</a>
+          <a href={`mailto:${CONTACT_EMAIL}`} className="border-b">{CONTACT_EMAIL}</a>
         </p>
         <p className="text-xs text-neutral-600">&copy; Robert Heinemann {currentYear}</p>
       </div>
