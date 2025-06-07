@@ -4,12 +4,12 @@ import Hero from "../sections/Hero.jsx";
 import AboutMe from "../sections/AboutMe.jsx";
 
 export default function Main() {
-    return (
-        <main>
-            <Hero />
-            <AboutMe />
-            <Experience />
-            <Projects />
-        </main>
-    )
+  return (
+    <main>
+      <Hero />
+      <AboutMe />
+      <Experience />
+      <Projects />
+    </main>
+  )
 }

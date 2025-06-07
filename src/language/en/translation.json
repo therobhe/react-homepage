@@ -18,6 +18,9 @@
   "projects": {
     "headline": "Sample Projects"
   },
+  "techstack": {
+    "headline": "Technologies"
+  },
   "footer": {
     "headline": "Get in Touch",
     "information": {
