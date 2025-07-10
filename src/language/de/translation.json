@@ -61,7 +61,22 @@
   "footer": {
     "headline": "Kontakt",
     "information": {
-      "address": "Im Winkel 2, 04523 Pegau, Deutschland"
+      "address": {
+        "street": "Im Winkel 2",
+        "postalCode": "04523",
+        "city": "Pegau",
+        "country": "Deutschland"
+      }
     }
+  },
+  "legal": {
+    "headline": "Impressum",
+    "datapolicy": "Datenschutzerklärung",
+    "lawParagraph": "Angaben gemäß § 5 TMG und § 55 RStV",
+    "contentManager": "Redaktionell Verantwortlich",
+    "source": "Quelle: ",
+    "disputeHeadline": "Streitbeilegung",
+    "disputePlatform": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:",
+    "disputeParticipation": "Ich bin weder verpflichtet noch bereit, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
   }
 }

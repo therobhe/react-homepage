@@ -1,6 +1,9 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { useModal } from '../../Context/ModalContext.jsx';
+import LegalNotice from "../sections/LegalNotice.jsx";
+import PrivacyPolice from "../sections/PrivacyPolice.jsx";
 
 export default function Footer() {
   const CONTACT_EMAIL = "rheinemann97@icloud.com";
@@ -11,6 +14,9 @@ export default function Footer() {
     const newLang = i18n.language === 'en' ? 'de' : 'en';
     i18n.changeLanguage(newLang);
   };
+
+  const { openModal } = useModal();
+
 
   return (
     <footer className="border-b border-neutral-900 pb-4">
@@ -31,7 +37,6 @@ export default function Footer() {
             <FaGithub />
           </a>
         </div>
-        <p className="my-4">{t("footer.information.address")}</p>
         <p className="my-4">
           <a href={`mailto:${CONTACT_EMAIL}`} className="border-b">{CONTACT_EMAIL}</a>
         </p>
@@ -43,6 +48,22 @@ export default function Footer() {
                 className="text-purple-400 hover:text-purple-300"
               >
                 {i18n.language === 'en' ? 'DE' : 'EN'}
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={() => openModal(<LegalNotice/>)}
+                className="text-purple-400 hover:text-purple-300"
+              >
+                {t("legal.headline")}
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={() => openModal(<PrivacyPolice/>)}
+                className="text-purple-400 hover:text-purple-300"
+              >
+                {t("legal.datapolicy")}
               </button>
             </li>
           </ul>
