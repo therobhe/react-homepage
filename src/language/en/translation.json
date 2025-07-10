@@ -59,9 +59,20 @@
     "headline": "Technologies"
   },
   "footer": {
-    "headline": "Get in Touch",
+    "headline": "Contact",
     "information": {
-      "address": "Im Winkel 2, 04523 Pegau, Germany"
+      "address": {
+        "street": "Im Winkel 2",
+        "postalCode": "04523",
+        "city": "Pegau",
+        "country": "Germany"
+      }
     }
+  },
+  "legal": {
+    "headline": "Imprint",
+    "lawParagraph": "Information according to § 5 TMG and § 55 RStV",
+    "contentManager": "Editorially Responsible",
+    "source": "Source: "
   }
 }
