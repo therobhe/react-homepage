@@ -1,7 +1,7 @@
 import { PROJECTS } from "../../data/data.js";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Projects() {
   const { t } = useTranslation();
@@ -49,9 +49,14 @@ export default function Projects() {
                   </span>
                 ))}
               </div>
-              {project.link && (
+              {project.link && project.link.includes("github") && (
                 <a href={project.link} target="_blank" rel="noreferrer">
                   <FaGithub className="text-4xl mt-4" />
+                </a>
+              )}
+              {project.link && !project.link.includes("github") && (
+                <a href={project.link} target="_blank" rel="noreferrer">
+                  <FaExternalLinkAlt className="text-4xl mt-4" />
                 </a>
               )}
             </motion.div>

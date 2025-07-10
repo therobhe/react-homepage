@@ -1,6 +1,7 @@
 /*import project1 from "../assets/projects/project-1.jpg";*/
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
+import apocom from "../assets/projects/apocom.jpeg";
 /*import project4 from "../assets/projects/project-4.jpg";*/
 
 /* Experiences */
@@ -21,14 +22,12 @@ export const EXPERIENCES = [
 
 /* Projects */
 export const PROJECTS = [
-  /*  {
-      title: "E-Commerce Website",
-      image: project1,
-      description:
-        "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-      technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-      link: ""
-    },*/
+  {
+    id: "apocom",
+    image: apocom,
+    technologies: ["React", "Bootstrap5", "PHP", "HTML5"],
+    link: "https://apo.com/"
+  },
   {
     id: "portfolio",
     image: project3,
