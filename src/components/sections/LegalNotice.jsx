@@ -27,15 +27,15 @@ export default function LegalNotice() {
         <p>{`${t("footer.information.address.postalCode")} ${t("footer.information.address.city")}`}</p>
         <p className="mb-4">{t("footer.information.address.country")}</p>
 
-        <h3 className="mb-4 text-2xl font-bold text-neutral-100">Streitbeilegung</h3>
+        <h3 className="mb-4 text-2xl font-bold text-neutral-100">{t("legal.disputeHeadline")}</h3>
         <p className="mb-4">
-          Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:
+          {t("legal.disputePlatform")}
           <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener noreferrer" className="border-b">
             https://ec.europa.eu/consumers/odr/
           </a>.
         </p>
         <p className="mb-4">
-          Ich bin weder verpflichtet noch bereit, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+          {t("legal.disputeParticipation")}
         </p>
 
         <p className="mb-4">{t("legal.source")} <a href="https://erecht24.de" target="_blank" className="border-b">eRecht24.de</a></p>

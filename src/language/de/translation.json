@@ -73,6 +73,9 @@
     "headline": "Impressum",
     "lawParagraph": "Angaben gemäß § 5 TMG und § 55 RStV",
     "contentManager": "Redaktionell Verantwortlich",
-    "source": "Quelle: "
+    "source": "Quelle: ",
+    "disputeHeadline": "Streitbeilegung",
+    "disputePlatform": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:",
+    "disputeParticipation": "Ich bin weder verpflichtet noch bereit, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
   }
 }
