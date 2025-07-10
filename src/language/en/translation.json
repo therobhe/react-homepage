@@ -70,7 +70,8 @@
     }
   },
   "legal": {
-    "headline": "Imprint",
+    "headline": "Legal Notice",
+    "datapolicy": "Privacy Policy",
     "lawParagraph": "Information according to § 5 TMG and § 55 RStV",
     "contentManager": "Editorially Responsible",
     "source": "Source: ",

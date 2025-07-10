@@ -55,7 +55,7 @@ export default function Footer() {
                 onClick={() => openModal(<LegalNotice/>)}
                 className="text-purple-400 hover:text-purple-300"
               >
-                Legal Notice
+                {t("legal.headline")}
               </button>
             </li>
             <li>
@@ -63,7 +63,7 @@ export default function Footer() {
                 onClick={() => openModal(<PrivacyPolice/>)}
                 className="text-purple-400 hover:text-purple-300"
               >
-                Privacy Policy
+                {t("legal.datapolicy")}
               </button>
             </li>
           </ul>
