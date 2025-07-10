@@ -42,6 +42,12 @@
     "headline": "Beispielprojekte",
     "items": [
       {
+        "id": "apocom",
+        "title": "apo.com - Online Versandapotheke",
+        "description": "apo.com ist eine führende Online-Plattform für den Erwerb von Arzneimitteln und Gesundheitsprodukten, die es Kunden ermöglicht, bequem von zu Hause aus zu bestellen.",
+        "imageAlt": "apo.com Versandapotheke Screenshot"
+      },
+      {
         "id": "portfolio",
         "title": "Portfolio Website",
         "description": "Eine persönliche Portfolio-Website zur Präsentation von Projekten, Fähigkeiten und Kontaktinformationen.",
