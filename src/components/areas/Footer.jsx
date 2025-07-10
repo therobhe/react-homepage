@@ -37,7 +37,6 @@ export default function Footer() {
             <FaGithub />
           </a>
         </div>
-        <p className="my-4">{t("footer.information.address")}</p>
         <p className="my-4">
           <a href={`mailto:${CONTACT_EMAIL}`} className="border-b">{CONTACT_EMAIL}</a>
         </p>
