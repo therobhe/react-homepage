@@ -49,16 +49,17 @@ export default function Projects() {
                   </span>
                 ))}
               </div>
-              {project.link && project.link.includes("github") && (
-                <a href={project.link} target="_blank" rel="noreferrer">
-                  <FaGithub className="text-4xl mt-4" />
-                </a>
-              )}
-              {project.link && !project.link.includes("github") && (
-                <a href={project.link} target="_blank" rel="noreferrer">
-                  <FaExternalLinkAlt className="text-4xl mt-4" />
-                </a>
-              )}
+              <div className="flex items-center mt-4">
+                {project.links && project.links.map((link, idx) => (
+                  <a key={idx} href={link} target="_blank" rel="noreferrer" className="mr-4">
+                    {link.includes("github") ? (
+                      <FaGithub className="text-4xl" />
+                    ) : (
+                      <FaExternalLinkAlt className="text-4xl" />
+                    )}
+                  </a>
+                ))}
+              </div>
             </motion.div>
           </div>
         ))}

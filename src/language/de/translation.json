@@ -54,10 +54,10 @@
         "imageAlt": "Portfolio Website Screenshot"
       },
       {
-        "id": "task-manager",
-        "title": "Aufgabenverwaltungs-App",
-        "description": "Eine Anwendung zur Verwaltung von Aufgaben und Projekten mit Funktionen wie Aufgabenerstellung und Fortschrittsverfolgung.",
-        "imageAlt": "Aufgabenverwaltungs-App Screenshot"
+        "id": "musterstadt",
+        "title": "Kommune Musterstadt",
+        "description": "Eine Mockup Seite für eine fiktive Kommune, die verschiedene Dienstleistungen und Informationen bereitstellt.",
+        "imageAlt": "Kommune Musterstadt Screenshot"
       }
     ]
   },
