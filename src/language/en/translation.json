@@ -54,10 +54,10 @@
         "imageAlt": "Portfolio Website Screenshot"
       },
       {
-        "id": "task-manager",
-        "title": "Task Management App",
-        "description": "An application for managing tasks and projects, with features such as task creation and progress tracking.",
-        "imageAlt": "Task Management App Screenshot"
+        "id": "musterstadt",
+        "title": "Municipality Musterstadt",
+        "description": "A mockup page for a fictional municipality providing various services and information.",
+        "imageAlt": "Municipality Musterstadt screenshot"
       }
     ]
   },
