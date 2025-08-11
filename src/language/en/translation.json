@@ -42,6 +42,12 @@
     "headline": "Sample Projects",
     "items": [
       {
+        "id": "lyricsPoster",
+        "title": "Lyrics Poster Generator",
+        "description": "Uses the LRLIB API to display any song lyrics in a vinyl design ready for printing.",
+        "imageAlt": "Lyrics Poster Generator Screenshot"
+      },
+      {
         "id": "apocom",
         "title": "apo.com - Online Mail-Order Pharmacy",
         "description": "apo.com is a leading online platform for purchasing medicines and health products, enabling customers to conveniently order from home.",

@@ -3,6 +3,7 @@
 import project3 from "../assets/projects/project-3.webp";
 import apocom from "../assets/projects/apocom.webp";
 import musterstadt from "../assets/projects/musterstadt.webp";
+import lyricsPoster from "../assets/projects/lyricsPoster.webp";
 /*import project4 from "../assets/projects/project-4.webp";*/
 
 /* Experiences */
@@ -24,10 +25,16 @@ export const EXPERIENCES = [
 /* Projects */
 export const PROJECTS = [
   {
+    id: "lyricsPoster",
+    image: lyricsPoster,
+    technologies: ["Vue.js", "Express", "CSS"],
+    links: ["https://github.com/therobhe/lyrics-poster-generator", "https://lyrics-poster-generator.netlify.app/"]
+  },
+  {
     id: "apocom",
     image: apocom,
     technologies: ["React", "Bootstrap5", "PHP", "HTML5"],
-    links: ["https://apo.com/"]
+    links: ["https://www.apo.com"]
   },
   {
     id: "musterstadt",

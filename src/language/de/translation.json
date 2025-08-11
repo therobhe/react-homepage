@@ -42,6 +42,12 @@
     "headline": "Beispielprojekte",
     "items": [
       {
+        "id": "lyricsPoster",
+        "title": "Lyrics Poster Generator",
+        "description": "Nutzt die LRLIB API um beliebige Sontexte in einem Vinyldesign druckfertig darzustellen.",
+        "imageAlt": "Lyrics Poster Generator Screenshot"
+      },
+      {
         "id": "apocom",
         "title": "apo.com - Online Versandapotheke",
         "description": "apo.com ist eine führende Online-Plattform für den Erwerb von Arzneimitteln und Gesundheitsprodukten, die es Kunden ermöglicht, bequem von zu Hause aus zu bestellen.",
