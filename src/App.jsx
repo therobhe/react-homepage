@@ -2,7 +2,7 @@ import Header from './components/areas/Header.jsx';
 import Main from './components/areas/Main.jsx';
 import Footer from './components/areas/Footer.jsx';
 
-import { ModalProvider } from './Context/ModalContext.jsx';
+import { ModalProvider } from './context/ModalContext.jsx';
 
 function App() {
 
