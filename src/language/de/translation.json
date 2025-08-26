@@ -42,6 +42,12 @@
     "headline": "Beispielprojekte",
     "items": [
       {
+        "id": "muiDashboard",
+        "title": "MUI Dashboard",
+        "description": "Eine moderne Dashboard-Webanwendung, entwickelt mit React, Material UI und Framer Motion. Sie bietet Authentifizierung, animierte Routenübergänge und ein responsives Layout.",
+        "imageAlt": "MUI Dashboard Screenshot"
+      },
+      {
         "id": "lyricsPoster",
         "title": "Lyrics Poster Generator",
         "description": "Nutzt die LRLIB API um beliebige Sontexte in einem Vinyldesign druckfertig darzustellen.",

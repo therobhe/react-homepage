@@ -42,6 +42,12 @@
     "headline": "Sample Projects",
     "items": [
       {
+        "id": "muiDashboard",
+        "title": "MUI Dashboard",
+        "description": "A modern dashboard web app built with React, Material UI, and Framer Motion.It features authentication, animated route transitions, and a responsive layout.",
+        "imageAlt": "MUI Dashboard screenshot"
+      },
+      {
         "id": "lyricsPoster",
         "title": "Lyrics Poster Generator",
         "description": "Uses the LRLIB API to display any song lyrics in a vinyl design ready for printing.",

@@ -4,6 +4,7 @@ import project3 from "../assets/projects/project-3.webp";
 import apocom from "../assets/projects/apocom.webp";
 import musterstadt from "../assets/projects/musterstadt.webp";
 import lyricsPoster from "../assets/projects/lyricsPoster.webp";
+import muiDashboard from "../assets/projects/muiDashboard.webp";
 /*import project4 from "../assets/projects/project-4.webp";*/
 
 /* Experiences */
@@ -24,6 +25,12 @@ export const EXPERIENCES = [
 
 /* Projects */
 export const PROJECTS = [
+  {
+    id: "muiDashboard",
+    image: muiDashboard,
+    technologies: ["React", "TypeScript", "MaterialUI 5", "Formik", "Yup"],
+    links: ["https://github.com/therobhe/mui-dashboard", "https://robhe-mui-dashboard.netlify.app/"]
+  },
   {
     id: "lyricsPoster",
     image: lyricsPoster,
