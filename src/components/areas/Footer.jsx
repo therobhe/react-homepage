@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { useModal } from '../../Context/ModalContext.jsx';
+import { useModal } from '../../context/ModalContext.jsx';
 import LegalNotice from "../sections/LegalNotice.jsx";
 import PrivacyPolice from "../sections/PrivacyPolice.jsx";
 

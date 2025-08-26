@@ -45,7 +45,7 @@
         "id": "muiDashboard",
         "title": "MUI Dashboard",
         "description": "A modern dashboard web app built with React, Material UI, and Framer Motion.It features authentication, animated route transitions, and a responsive layout.",
-        "imageAlt": "MUI Dashboard screenshot"
+        "imageAlt": "MUI5 Dashboard screenshot"
       },
       {
         "id": "lyricsPoster",
