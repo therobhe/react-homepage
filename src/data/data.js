@@ -28,7 +28,7 @@ export const PROJECTS = [
   {
     id: "muiDashboard",
     image: muiDashboard,
-    technologies: ["React", "TypeScript", "MaterialUI 5", "Formik", "Yup"],
+    technologies: ["React", "TypeScript", "MaterialUI 5", "Formik", "Yup", "React-Router"],
     links: ["https://github.com/therobhe/mui-dashboard", "https://robhe-mui-dashboard.netlify.app/"]
   },
   {
