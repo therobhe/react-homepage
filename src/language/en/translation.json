@@ -42,6 +42,12 @@
     "headline": "Sample Projects",
     "items": [
       {
+        "id": "f1scorer",
+        "title": "F1 2014 Season Tracker",
+        "description": "Application to track a season in F1 2014 split-screen mode. Offers options to create custom race calendars and point systems.",
+        "imageAlt": "F1 Scorer Screenshot"
+      },
+      {
         "id": "muiDashboard",
         "title": "MUI Dashboard",
         "description": "A modern dashboard web app built with React, Material UI, and Framer Motion.It features authentication, animated route transitions, and a responsive layout.",

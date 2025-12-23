@@ -42,6 +42,12 @@
     "headline": "Beispielprojekte",
     "items": [
       {
+        "id": "f1scorer",
+        "title": "F1 2014 Season Tracker",
+        "description": "Anwendung um eine Saison im F1 2014 Splitscreen Modus zu tracken. Bietet Optionen zur Erstellung eigener Rennkalender und Punktesysteme.",
+        "imageAlt": "F1 Scorer Screenshot"
+      },
+      {
         "id": "muiDashboard",
         "title": "MUI Dashboard",
         "description": "Eine moderne Dashboard-Webanwendung, entwickelt mit React, Material UI und Framer Motion. Sie bietet Authentifizierung, animierte Routenübergänge und ein responsives Layout.",

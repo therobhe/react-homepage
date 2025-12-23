@@ -5,10 +5,15 @@ import apocom from "../assets/projects/apocom.webp";
 import musterstadt from "../assets/projects/musterstadt.webp";
 import lyricsPoster from "../assets/projects/lyricsPoster.webp";
 import muiDashboard from "../assets/projects/muiDashboard.webp";
+import f1scorer from "../assets/projects/f1scorer.webp";
 /*import project4 from "../assets/projects/project-4.webp";*/
 
 /* Experiences */
 export const EXPERIENCES = [
+  {
+    id: "get-ag",
+    technologies: "React, Next.js, TypeScript, TailwindCSS, MaterialUI"
+  },
   {
     id: "lead-frontend",
     technologies: ["React", "PHP", "Contentful", "mySQL"],
@@ -25,6 +30,12 @@ export const EXPERIENCES = [
 
 /* Projects */
 export const PROJECTS = [
+  {
+    id: "f1scorer",
+    image: f1scorer,
+    technologies: ["React", "React Router", "TypeScript", "TailwindCSS"],
+    links: ["https://github.com/therobhe/f1-game-point-manager", "https://f1-2014-game-point-manager.netlify.app/"]
+  },
   {
     id: "muiDashboard",
     image: muiDashboard,
