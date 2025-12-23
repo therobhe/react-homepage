@@ -16,6 +16,13 @@
     "headline": "Work Experience",
     "items": [
       {
+        "id": "get-ag",
+        "year": "2025 - Present",
+        "role": "Frontend Developer",
+        "company": "GET AG",
+        "description": "Design and development of user interfaces for web applications using React."
+      },
+      {
         "id": "lead-frontend",
         "year": "2024 - Present",
         "role": "Stand-in Teamlead Frontend",

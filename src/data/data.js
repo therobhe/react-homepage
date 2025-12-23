@@ -12,7 +12,7 @@ import f1scorer from "../assets/projects/f1scorer.webp";
 export const EXPERIENCES = [
   {
     id: "get-ag",
-    technologies: "React, Next.js, TypeScript, TailwindCSS, MaterialUI"
+    technologies: ["React", "Next.js", "TypeScript", "TailwindCSS", "MaterialUI"],
   },
   {
     id: "lead-frontend",

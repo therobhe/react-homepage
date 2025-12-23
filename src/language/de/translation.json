@@ -16,8 +16,15 @@
     "headline": "Berufserfahrung",
     "items": [
       {
+        "id": "get-ag",
+        "year": "2025 - Heute",
+        "role": "Frontend Entwickler",
+        "company": "GET AG",
+        "description": "Gestaltung und Entwicklung von Benutzeroberflächen für Webanwendungen mit React."
+      },
+      {
         "id": "lead-frontend",
-        "year": "2024 - Heute",
+        "year": "2024 - 2025",
         "role": "Stellvertretender Teamleiter Frontend",
         "company": "apo.com Group",
         "description": "Gestaltung und Entwicklung von Benutzeroberflächen für Webanwendungen mit React. Implementation des Headless CMS Contentful zur Unterstützung der Content Manager bei der aktiven Shop-Aktualisierung. Durchführung von Code-Reviews, Mentoring von Junior-Entwicklern und Erweiterung der Kenntnisse im E2E-Testing mit Cypress."
