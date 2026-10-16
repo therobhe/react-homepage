@@ -50,9 +50,3 @@ This repository includes automated GitHub Actions workflows:
 
 - **CI (`.github/workflows/ci.yml`)**: Automatically triggers on pushes and pull requests to `master`, validating dependency installation (`npm ci`), code linting (`npm run lint`), and build compilation (`npm run build`).
 - **Weekly Security Audit (`.github/workflows/weekly-audit.yml`)**: Runs weekly via cron and on manual trigger (`workflow_dispatch`). It executes `npm audit fix`, verifies that linting and builds succeed, and creates an automated Pull Request with updates for review and Netlify Deploy Preview verification.
-
-### Required GitHub Settings
-To allow the weekly audit workflow to create pull requests automatically, ensure the repository settings are configured as follows:
-1. Navigate to **Settings > Actions > General**.
-2. Under **Workflow permissions**, select **Read and write permissions**.
-3. Check the box **Allow GitHub Actions to create and approve pull requests**.
