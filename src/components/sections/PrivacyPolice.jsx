@@ -81,7 +81,7 @@ export default function PrivacyPolice() {
         <h3 className="mt-4 mb-2 text-xl font-bold text-neutral-100">Datensicherheit</h3>
         <p>Diese Website nutzt aus Sicherheitsgründen eine SSL/TLS-Verschlüsselung.
            Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers
-           mit "https://" beginnt und am Schloss-Symbol in Ihrer Browserzeile.</p>
+           mit &quot;https://&quot; beginnt und am Schloss-Symbol in Ihrer Browserzeile.</p>
 
         <h3 className="mt-4 mb-2 text-xl font-bold text-neutral-100">Rechtsgrundlage</h3>
         <p>Die Verarbeitung Ihrer Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO
